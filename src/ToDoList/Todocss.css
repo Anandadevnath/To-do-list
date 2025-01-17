@@ -98,3 +98,25 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
+button img, span img {
+  width: 20px;  /* Adjust icon size */
+  height: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: -22px;
+}
+
+ul li span {
+  cursor: pointer;
+}
